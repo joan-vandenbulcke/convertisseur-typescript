@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 5rem;
+}
+
+form {
+  margin: 2rem;
+}
+
+.currencies {
+  display: flex;
+  gap: 2rem;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+
+  &__input {
+    width: 30%;
+  }
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  padding: 1rem;
+}
+
+.currency-to-convert {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result {
+  font-size: 2rem;
+}
