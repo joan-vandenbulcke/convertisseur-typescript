@@ -110,10 +110,10 @@ button:focus-visible {
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 1.5em; /* Ajustez la taille de la police au besoin
+    font-size: 1.5em;
   }
   button {
-    font-size: 0.6em; /* Ajustez la taille de la police au besoin */
-    padding: 0.3em 0.6em; /* Ajustez la taille du bouton au besoin */
+    font-size: 0.6em;
+    padding: 0.3em 0.6em;
   }
 }
