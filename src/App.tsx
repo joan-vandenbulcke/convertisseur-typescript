@@ -42,7 +42,7 @@ const App = () => {
     <>
       <h1>Convertisseur de devises</h1>
       <h2>Réalisé en React + TypeScript</h2>
-      <form action="submit">
+      <form action="submit" className="form">
         <div className="amount">
           <label htmlFor="amount__label">Montant :</label>
           <Input

@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.2rem;
   line-height: 1.1;
 }
 
@@ -65,5 +65,55 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  button {
+    font-size: 0.8em;
+    padding: 0.4em 0.8em;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .amount {
+    display: flex;
+    flex-direction: column;
+  }
+  .ant-input {
+    width: 70%;
+  }
+  .currencies {
+    flex-direction: column;
+  }
+  .currency {
+    display: flex;
+    flex-direction: column;
+  }
+  .currency-to-convert {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em; /* Ajustez la taille de la police au besoin
+  }
+  button {
+    font-size: 0.6em; /* Ajustez la taille de la police au besoin */
+    padding: 0.3em 0.6em; /* Ajustez la taille du bouton au besoin */
   }
 }
